@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	routes.RegisterRoutes()
-	log.Fatal(http.ListenAndServe(":5000", nil))
+	routes.Routes()
+	log.Fatal(http.ListenAndServe(":5300", nil))
 }
